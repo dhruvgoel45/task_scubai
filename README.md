@@ -1,12 +1,51 @@
-# React + Vite
+# Dashboard Tabs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is built using React and Vite, providing a minimal setup with HMR (Hot Module Replacement) and ESLint rules.
 
-Currently, two official plugins are available:
+## Features
+- Sortable tabs with drag-and-drop functionality
+- Dynamic tab addition
+- Grid layout with draggable and resizable boxes
+- Self-aligning boxes on drag
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation and Setup
+To run this project locally, follow these steps:
 
-## Expanding the ESLint configuration
+### Prerequisites
+Make sure you have Node.js and npm installed.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Steps to Run the Project
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd <project-folder>
+   ```
+
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+4. Open the project in your browser:
+   ```sh
+   http://localhost:5173/
+   ```
+
+### Building for Production
+To build the project for production, run:
+   ```sh
+   npm run build
+   ```
+
+### Linting
+To check for linting errors, use:
+   ```sh
+   npm run lint
+   ```
+
+This project uses `@vitejs/plugin-react` for Fast Refresh and `react-grid-layout` for flexible layout management.
